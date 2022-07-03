@@ -1,0 +1,103 @@
+/*Using universal selector with box-sizing*/
+*{
+	box-sizing: border-box;
+}
+/*Setting some common functionalities need to used overall the page using body tag*/
+body{
+	font-family: serif, sans-serif;
+	color: #A6ACAF;
+	padding: 0px;
+	margin: 0px;
+}
+/*Width of 100% is used here so that main-header uses 100% width of body tag.*/
+.main-header{
+	background: black;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+/*using inline-block so that main-header_div_info and main-header_div_img can set side by side.*/
+.main-header_div_info{
+	width: 40%;
+	display: inline-block;
+	/*text-align: center;*/
+	position: relative;
+	/*bottom:5.5rem;*/
+	left: 20%;
+	bottom: 5rem;
+}
+.main-header_div_info > h1{
+	font-family: 'Cinzel', serif;
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+.main-header_div_info > h3{
+	margin-top: 0.2rem;
+	padding-left: 7.5rem;
+}
+.main-header_div_img{
+	display: inline-block;
+	position: relative;
+	left: 30%;
+	top: 0.4rem;
+}
+/*Here I have used vh instead of % as I required 50% of viewport heigth.*/
+.main-header_div_img_tag{
+	height: 53vh;
+	padding: 1.2rem;
+}
+.main{
+	padding: 0px;
+	margin: 0px;
+}
+.main-div_briefInfo{
+	color: #D0D3D4;
+	background: #131219 ;
+	padding: 1rem 1.5rem 1rem 1.5rem;
+	font-family: 'M PLUS 1 Code', sans-serif;
+	font-size: 1.1rem;
+}
+.main-div_Timeline_heading{
+	color: #131219;
+	/*background: #CDD1D2;*/
+	background: whitesmoke;
+	margin-top: 0;
+	padding: 1rem 0 1rem 0;
+	text-align: center;
+}
+/*I was not able to draw the vertical line in list so i converted lists into div.*/
+.vertical-line-left{
+	border-left: 4px solid black;
+	height: 100%;
+	margin-left: 49.7%;
+	color: black;
+}
+.vertical-line-right{
+	border-right: 4px solid black;
+	height: 100%;
+	margin-right: 50%;
+	color: black;
+	text-align: right;
+
+}
+.date{
+	margin:0 1rem;
+	font-size: 2rem;
+	font-family: 'M PLUS 1 Code', sans-serif;
+	font-weight: bold;
+}
+.event-info{
+	margin:0 1rem;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+.main-footer{
+	margin-top: 2rem;
+	font-size: 1.5rem;
+	font-family: 'M PLUS 1 Code', sans-serif;
+	text-align: center;
+	background: whitesmoke;
+	color: black;
+	padding: 1rem 0;
+}
