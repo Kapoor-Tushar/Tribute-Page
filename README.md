@@ -15,11 +15,15 @@ Feel free to explore and share your thoughts! Your feedback is highly appreciate
 
 Let's celebrate the legacy of Steve Jobs through this tribute. 🍎✨
 
+## Check out the tribute page: https://kapoor-tushar.github.io/Tribute-Page/
+
 ## Demo
 ![image](https://github.com/Kapoor-Tushar/Tribute-Page/assets/82567111/c96113c5-4fe7-4b3e-9e53-6c579f315c69)
 ![image](https://github.com/Kapoor-Tushar/Tribute-Page/assets/82567111/214da50e-9b53-4ebb-82ea-74e28b4246d1)
 ![image](https://github.com/Kapoor-Tushar/Tribute-Page/assets/82567111/61e2312b-a0a3-45ed-a0d3-a21351995bcf)
 ![image](https://github.com/Kapoor-Tushar/Tribute-Page/assets/82567111/850bc144-cf96-40e8-9ce9-8fb4c0b4e169)
+
+
 
 
 
